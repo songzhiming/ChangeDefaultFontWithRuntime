@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="受降雪影响 乌鲁木齐机场跑道预计关闭至11点半sjndjbdjbjdbjdbjdbjdbjnjdndnndndndndndnd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGx-a7-2Ib">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是歌手4排名剧透:黄致dd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yy4-R3-5UW">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="137" y="494" width="206" height="21"/>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Yy4-R3-5UW" firstAttribute="top" secondItem="TGx-a7-2Ib" secondAttribute="bottom" constant="169" id="0Zk-xe-IJZ"/>
+                <constraint firstItem="TGx-a7-2Ib" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="131" id="AGh-i7-IW5"/>
+                <constraint firstAttribute="trailing" secondItem="TGx-a7-2Ib" secondAttribute="trailing" constant="-91" id="DpX-hm-fpv">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="Yy4-R3-5UW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="137" id="G3c-Y1-dYZ"/>
+                <constraint firstItem="TGx-a7-2Ib" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="243" id="MFJ-gU-VSH"/>
+                <constraint firstAttribute="trailing" secondItem="TGx-a7-2Ib" secondAttribute="trailing" constant="227" id="OKS-GP-IS0"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="TGx-a7-2Ib"/>
+                    <exclude reference="Yy4-R3-5UW"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="AGh-i7-IW5"/>
+                    <exclude reference="DpX-hm-fpv"/>
+                    <exclude reference="MFJ-gU-VSH"/>
+                    <exclude reference="OKS-GP-IS0"/>
+                    <exclude reference="0Zk-xe-IJZ"/>
+                    <exclude reference="G3c-Y1-dYZ"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="TGx-a7-2Ib"/>
+                    <include reference="Yy4-R3-5UW"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="AGh-i7-IW5"/>
+                    <include reference="DpX-hm-fpv"/>
+                    <include reference="MFJ-gU-VSH"/>
+                    <exclude reference="OKS-GP-IS0"/>
+                    <include reference="0Zk-xe-IJZ"/>
+                    <include reference="G3c-Y1-dYZ"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
